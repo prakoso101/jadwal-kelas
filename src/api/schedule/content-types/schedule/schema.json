@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedules",
+  "info": {
+    "singularName": "schedule",
+    "pluralName": "schedules",
+    "displayName": "schedule"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "matakuliah": {
+      "type": "string"
+    },
+    "waktu": {
+      "type": "string"
+    },
+    "ruangan": {
+      "type": "string"
+    },
+    "kodedosen": {
+      "type": "string"
+    }
+  }
+}
